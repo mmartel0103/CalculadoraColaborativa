@@ -27,13 +27,8 @@ public class Calculadora{
     }
     
     public static double division(int a,int b) {
-        if (b==0){
-            System.out.println("ERROR: No se puede dividir por cero.");
-            System.exit(1);
-        }
         return (double) a/b;
     }
-    
     public  static double potencia(int a, int b){
         return Math.pow(a,b);
     }
