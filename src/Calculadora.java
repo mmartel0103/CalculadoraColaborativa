@@ -5,8 +5,19 @@ public class Calculadora{
         //Zona de prueba
         System.out.println("Programa iniciado con exito.");
         
+        System.out.println("Suma (5+3): " + suma(5,3));
+        System.out.println("Resta (5-3): " + resta(5,3));
+        
         System.out.println("Multiplicacion (5*3): " + multiplicacion(5,3));
         System.out.println("Division (5/3): " + division(5,3));
+    }
+    
+    public static int suma(int a,int b) {
+        return a+b;
+    }
+    
+    public static int resta(int a,int b) {
+        return a-b;
     }
     
     public static int multiplicacion(int a,int b) {
