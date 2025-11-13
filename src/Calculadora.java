@@ -10,6 +10,8 @@ public class Calculadora{
         
         System.out.println("Multiplicacion (5*3): " + multiplicacion(5,3));
         System.out.println("Division (5/3): " + division(5,3));
+        
+        System.out.println("Potencia de (2^3): " + potencia(2,3));
     }
     
     public static int suma(int a,int b) {
@@ -27,5 +29,7 @@ public class Calculadora{
     public static double division(int a,int b) {
         return (double) a/b;
     }
-    
+    public  static double potencia(int a, int b){
+        return Math.pow(a,b);
+    }
 }
